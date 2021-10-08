@@ -48,3 +48,20 @@ Cenario: Ativar notificação de um processo inscrito
    Entao não aparecerá nenhuma opção para a ativação
   
   
+
+
+Funcionalidade: Buscar Vagas
+    Como usuario da plataforma
+    Eu desejo buscar vagas de emprego
+    Para colocá-las em meu filtro de preferência de vagas
+
+Cenario: Busca com sucesso
+    Dado que o website ou aplicativo
+    Quando realizo busca pelo nome da vaga "vaga desejada"
+    Entao vejo o resultado da consulta
+
+Cenario: Busca sem sucesso
+    Dado que o website ou aplicativo
+    Quando realizo busca pelo nome da vaga "vaga desejada"
+    Entao vejo que não existe resultados para a vaga desejada
+ 
